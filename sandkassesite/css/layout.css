@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+header {
+  position: sticky;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+  padding: 40px 10px;
+}
+
+.hero {
+  position: relative;
+}
+
+.info_grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  padding-right: 3rem;
+  gap: 3rem;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+.year {
+  font-size: 3em;
+  font-weight: lighter;
+  color: red;
+}
